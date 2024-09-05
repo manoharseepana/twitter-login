@@ -1,0 +1,165 @@
+.twitter{
+    height:100vh;
+}
+*{
+    margin:0;
+
+}
+body{
+    background-color: black;
+}
+.happen,.join{
+    color:white;
+   
+
+}
+.happen{
+    margin-bottom: 10px;
+}
+.join{
+    margin-bottom: 6px;
+}
+.happen{
+    font-size: 64px;
+    text-wrap: nowrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    /* margin-top:48px ; */
+}
+
+.container{
+    display:flex;
+   
+}
+.google{
+    background-color: white;
+    color:gray;
+    border: none;
+    padding:10px;
+    border-radius: 20px;
+    width:250px;
+    text-wrap: nowrap;
+    /* margin-bottom: 500px; */
+    text-align: center;
+    /* padding-bottom: 10px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.google img{
+    height:14px;
+    width:14px;
+    padding-right:10px;
+   
+}
+span{
+    color:white;
+    text-align: center;
+}
+.sign{
+    background-color: blue;
+    color:white;
+    font-weight: 600;
+    font-style: bold;
+    border-radius: 20px;
+    border: none;
+    padding:10px;
+    width:250px;
+}
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding-right: 355px;
+    
+}
+
+.line {
+    /* flex-grow: 0.5; */
+    width:80px;
+    height: 1px;
+    background-color:#555; /* You can change the color */
+     margin: 0 5px; /*Adjust the spacing around "or" */
+}
+
+.or-text {
+    padding: 0 10px;
+    font-weight: bold;
+    color:white; /* You can change the text color */
+}
+.text{
+    color:#555;
+    text-wrap: wrap;
+    width:250px;
+    font-size: 12px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    
+    
+}
+.text a{
+    text-decoration: none;
+}
+.text a:hover{
+    text-decoration: underline;
+}
+.already{
+    color:white;
+    font-weight: 600;
+    font-family: bold;
+    margin-bottom: 20px;
+}
+.in{
+    background-color: black;
+    color:blue;
+    font-weight: 600;
+    font-style: bold;
+    border-radius: 20px;
+    /* border: none; */
+    padding:10px;
+    width:250px;
+    border-color:white;
+}
+.in:hover{
+    background-color: rgba(blue,0.3);
+}
+.container-3 {
+    display: flex;
+   flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    
+    
+}
+.cont-4 {
+   
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+}
+.container-3 a{
+    color:#555;
+    text-decoration: none;
+}
+.cont-4 a{
+    color:#555;
+    padding:5px;
+    text-decoration: none;
+    padding:5px;
+}
+.container-3 a:hover{
+    text-decoration: underline;
+  
+}
+.cont-4 a:hover{
+    text-decoration: underline;
+}
